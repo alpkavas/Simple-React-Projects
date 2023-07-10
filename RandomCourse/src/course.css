@@ -1,0 +1,11 @@
+.image{
+    width: 350px;
+
+}
+
+.courseDiv{
+    margin: 10px;
+    border: 1px solid rgb(172, 172, 172);
+    padding: 10px;
+    border-radius: 10px;
+}

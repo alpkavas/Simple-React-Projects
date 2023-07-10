@@ -1,0 +1,36 @@
+.addTask{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  background-color: darkseagreen;
+}
+
+.todoArea{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(190, 190, 190);
+
+}
+
+.todoArea > button {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.todoTaskArea{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  column-gap: 5px;
+  margin-top: 15px;
+  min-width:500px;
+  height: fit-content;
+  border-bottom: 1px solid darkgray;
+
+}
+
+

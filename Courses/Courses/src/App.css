@@ -1,0 +1,47 @@
+
+.courseMainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.cards{
+    width: 350px ;
+    border: solid 1px rgb(163, 0, 0);
+    border-radius: 30px;
+    padding: 30px;
+    color: #357fff;
+}
+
+.cardDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cardPrice{
+    font-size: larger ;
+    color: rgb(214, 43, 0);
+    font:italic;
+}
+
+.cardDeleteBtn{
+    position: relative;
+	height: 50px;
+	width: 130px;
+	border: 0;
+	border-radius: 20px;
+	font-size: 1.1em;
+	background-image: linear-gradient(to right, #fbc2eb 0%, #498cff 51%, #fbc2eb 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: beige;
+    cursor: pointer;
+} 
+
+.cardDeleteBtn:hover{
+    background-position: right center;
+}

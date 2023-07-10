@@ -1,0 +1,21 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddBtn{
+    width:  25%;
+    background-color: rgb(250, 167, 59);
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.course{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
