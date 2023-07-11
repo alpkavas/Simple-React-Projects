@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    color:rgb(206, 235, 78);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0; 
+}
+
+.App{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 202, 248);
+    color: rgb(22, 22, 22);
+    font-weight: 800;
+    display: flex;
+}
+
+.App .container{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ff6600;
+}
+
+.randomNum{
+    background-color: #faf0d7;
+    padding: 30px;
+    min-width: 100%;
+}
+
+
+.randomNum p span{
+    color: red;
+    font-weight: 800;
+    font-size: larger;
+    margin-left: 5px;
+}
+
+.NumContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 10px 0px;
+}
+
+input{
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+.randomBtn{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    color: black;
+    background-color: rgb(253, 209, 121);
+    font-size: larger;
+}
+
+.randomBtn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 202, 95);
+}
