@@ -15,12 +15,9 @@
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTl0NXV1YWFmZWc1b25meDE1Z2x3bmsyZmZ4cGRzZWo1c2J1ZHk2NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JtDWaTNchaR3XPslPz/giphy.gif)
 
-<<<<<<< HEAD
-#### 5-) TodoApp
-
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnA5Mm9zNDY4anptMHozbmx1czhka3pzeTkwc3I0bXk0aG5xY3NwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pfkEooyxUfePUdIopn/giphy.gif)
-
-=======
 #### 5-) Random Number Generator
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2t4NGlzeDc0ajN6MmIwM2IxdnlwODhuYWZ4cm4wajlsdW81MGEyZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NadmAMFjJV8KhYTkKF/giphy.gif)
->>>>>>> 5f8ecca8ad4d4b945f30c432d9704793f70d7995
+
+#### 6-) TodoApp
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnA5Mm9zNDY4anptMHozbmx1czhka3pzeTkwc3I0bXk0aG5xY3NwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pfkEooyxUfePUdIopn/giphy.gif)
+
