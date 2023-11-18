@@ -1,0 +1,83 @@
+.container{
+    max-width: 650px;
+    margin: 5px auto;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.buttons {
+    margin: 5%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+
+    height: 50px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+/* Score */
+p {
+    font-size: 25px;
+
+}
+/* MemoryApp Text */
+h1 {
+            font-size: 40px;
+            color: #00ffea;
+            font-weight: normal;
+            text-shadow: 5 0 10px #00ffea,
+                         5 0 10px #00ffea,
+                         5 0 20px #00ffea,
+                         5 0 40px #00ffea,
+                         0 0 50px #00ffea,
+                         0 0 80px #00ffea,
+                         0 0 90px #00ffea,
+                         0 0 120px #00ffea,
+                         0 0 0px #00ffea;
+            animation: ani 8s linear infinite;
+        }
+
+        @keyframes ani {
+            0% {
+                filter: hue-rotate(0deg);
+            }
+            100% {
+                filter: hue-rotate(360deg);
+            }
+        }
+

@@ -1,0 +1,18 @@
+.headerList{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.panelContainer{
+    background: #F6F8F9;
+    background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    box-shadow: 0px 14px 7px -3px rgba(3,0,7,0.6);
+    /* box-shadow: 3px 10px 5px -4px rgba(0,0,0,0.48); */
+    margin-bottom: 2.5rem;
+    padding: 1rem 1rem;
+}
+.arrowBtn{
+    cursor: pointer;
+
+}

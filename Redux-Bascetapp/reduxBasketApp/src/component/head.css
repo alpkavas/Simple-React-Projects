@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.basket-icon-counter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(25, 58, 73);
+    color: white;
+}
+
+.icon-counter{
+    position: relative;
+}
+#bascetIcon{
+    position: absolute;
+    left: 15px;
+    top: -13px;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: rgb(25, 58, 73);
+    text-align: center;
+    font-size: larger;
+    
+}

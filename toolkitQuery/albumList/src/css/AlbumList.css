@@ -1,0 +1,10 @@
+.albumListHeaderArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.albumListHeaderArea > h1 {
+    font-size: 20px;
+
+}

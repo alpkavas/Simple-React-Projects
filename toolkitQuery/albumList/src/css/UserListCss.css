@@ -1,0 +1,18 @@
+.userListHeaderArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0 10em;
+    margin-bottom: 2.5em;
+    padding: 1em 10em;
+    border: 1px solid #000000;
+    box-shadow: 8px 7px 9px 0px rgba(0,0,0,0.97);
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+.content{
+    margin: 0 10em;
+}

@@ -1,0 +1,13 @@
+.cancelBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.cancelBtn:hover{
+    background-color: linen;
+}

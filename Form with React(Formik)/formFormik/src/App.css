@@ -1,0 +1,79 @@
+.App{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 500px;
+}
+
+.inputDiv{
+    margin-bottom: 10px;
+}
+
+input,select{
+    width: 100%;
+    padding: 8px 7px;
+    font-size: 1rem;
+    border: 1px solid #4a5568;
+    border-radius: 10px;
+    background-color: #2d3748;
+    color: azure;
+    margin: 5px 0;
+    outline: none;
+}
+
+input:focus{
+    border-color: lightblue;
+}
+
+input::placeholder{
+    color: lightgrey;
+    font-size: smaller;
+}
+
+label{
+    font-size: 1rem;
+    font-weight: 500px;
+}
+
+.saveButton{
+    width: 100%;
+    padding: 8px 8px;
+    margin: 15px 0;
+    color: azure;
+    font-size: 1rem;
+    background-color: rgb(5, 172, 5);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.saveButton:hover{
+    background-color: rgb(2, 114, 2); ;
+}
+
+.inputError{
+    border-color: #fc8181;
+}
+.error{
+    color: #fc8181;
+    font-size: 12px;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.checkbox span{
+    margin-left: 10px;
+}
+.checkbox input{
+    width: auto;
+}
+
+.formLink{
+    color: azure;
+}

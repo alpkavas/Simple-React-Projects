@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Douglas Yost",
+      "id": 1
+    }
+  ],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Bespoke Plastic Cheese",
+      "id": 1
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8436112364142592",
+      "id": 1
+    }
+  ]
+}

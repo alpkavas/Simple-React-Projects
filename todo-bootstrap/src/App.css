@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+header{
+    background-color: skyblue;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+}
+/* Create Task Component Start */
+.task__create{
+    display: flex;
+    justify-content: center;
+}
+
+.form__task{
+    padding: 20px;
+    width: 250px;
+    border: 1px solid lightseagreen;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.form__input{
+    border: none;
+}
+.form__textarea{
+    border: none;
+}
+.form__button{
+    margin-top: 15px;
+    width: 100px;
+}
+/* Create Task Component End */
+
+.task__item{
+    border: 1px solid lightseagreen;
+    border-radius: 25px;
+    min-width: 250px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+/* Footer Component Start */
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-weight: 700;
+
+    position: fixed;
+    bottom: 0;
+    left:50% ;
+    transform: translate(-50%);
+    width: 100%;
+
+}
+/* Footer Component End */
